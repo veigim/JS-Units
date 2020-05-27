@@ -85,24 +85,99 @@
 // console.log(`https:someurl.com/${category}/5`);
 
 // ---------------unit 5 -------------
-"use strict";
+// "use strict";
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// ++incr;
-// --decr;
-console.log(++incr);
-console.log(--decr);
+// // ++incr;
+// // --decr;
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2*4 === "8");
+// console.log(2*4 === "8");
 
-const isChecked = true,
-        isClose = false;
+// const isChecked = true,
+//         isClose = false;
 
-&&
-||
+// &&
+// ||
 
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
+
+
+// ---------unit 6 function----------
+
+// "use strict";
+// let num = 20;
+
+// function showFirstMessage(text){
+//     console.log(text);
+//     let num = 10;
+//     console.log(num);
+// }
+
+// showFirstMessage("hello world");
+// console.log(num);
+
+// // function calc(a, b) {
+// //     return(a+b);
+// // }
+
+// // console.log(calc(4, 6));
+// // console.log(calc(5, 6));
+// // console.log(calc(7, -6));
+
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+// const logger = function(){
+//     console.log("hello");
+// };
+
+// logger();
+
+// // const calc = (a, b) => a + b ;
+// // console.log(calc(1, 5));
+
+// const calc = (a, b) => {
+//     console.log('1');
+//     return a + b;
+// };
+// console.log(calc());
+
+// ------------unit 7--------------
+// "use strict";
+
+// const str = "test";
+// const arr = [1, 2, 4];
+
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str);
+
+// const fruit = 'Some fruit';
+
+// console.log(fruit.indexOf('i'));
+
+// const logg = "Вадик бест ин зе ворлд";
+
+// // console.log(logg.slice(6));
+
+// // console.log(logg.substring(6, 11)); // початок і кінець строчки
+
+// console.log(logg.substr(6, 16)); //- скільки символів вирізати після початку
+
+// const num = 12.2;
+// console.log(Math.round(num));
+
+// const test = "12.2px";
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
